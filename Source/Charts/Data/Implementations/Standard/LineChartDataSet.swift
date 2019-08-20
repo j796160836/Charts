@@ -21,6 +21,7 @@ open class LineChartDataSet: LineRadarChartDataSet, ILineChartDataSet
         case linear
         case stepped
         case cubicBezier
+        case cubicBezierWithProgress
         case horizontalBezier
     }
     
